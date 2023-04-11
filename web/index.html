@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Documentation by "WRTeam"</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body>
+        <section id="header">
+            <header>
+                <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
+                <h4 id="logo"><a href="#">Quotes Admin Panel</a></h4>
+            </header>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#one" class="active">Installation</a></li>
+                    <li><a href="https://wrteam.in/" target="_blank">Support</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <ul class="icons">
+                    <li><a href="#" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" target="_blank" class="icon fa fa-linkedin"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" target="_blank" class="icon fa fa-google-plus"><span class="label">Email</span></a></li>
+                </ul>
+            </footer>
+        </section>
+        <div id="wrapper">
+        <div id="main">
+            <section id="one">
+                <div class="container">
+                    <header class="major">
+                        <h2>PHP Admin Panel</h2>
+                    </header>
+                    <div class="borderTop">
+                        <p><a style="color:#06F">Table of Contents</a></p>
+                        <ol class="alpha">
+                            <li><a href="#installation">Configure on your server</a></li>
+                        </ol>
+                        <div class="span-12 last">
+                            <p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="mailto:info@wrteam.in" style='color:#06F'>here</a>. Thank you so much!</p>
+                        </div>
+                    </div>
+					<h3 id="installation"> 1. How to Configure Database & Back-end on Your Server?</h3>
+                     
+                    <ol>
+                        <li>First of all find the  <b> PHP / Quotes </b> folder from the downloaded package and upload to your server.</li>
+						<li>Create a new database from cPanel</li>
+                        <li>Create new user for the database & give all the privileges to the user</li>
+                        <li>Import the database file 'quotes.sql' to your PHPMYADMIN </li>
+                        <li>Open File Manager or FTP or File Explorer</li>
+                        <li>Go To <code>'library/'</code> directory and Open <code>'crud.php'</code> file in PHP Code
+                        <li>set 'DOMAIN_URL' to your www.mydomain.com domain on line number - 8 <br>
+							<code>define('DOMAIN_URL','www.mydomain.com');</code></li>
+						<li>Set database credentials with your credentials on line number - 17,18,19,20 <br>
+                            <blockquote>private $db_host = "localhost";  // Change as required<br>
+							private $db_user = "mydb_user";  // Change as required<br>
+							private $db_pass = "mydb_user_password";  // Change as required<br>
+							private $db_name = "myquotes_db";	// Change as required</blockquote>
+                        </li>
+                    </ol>
+                    <p>Thats it! Now you are ready to run : <b>http://www.mydomain.com</b></p>
+                    <b>Default Login Details</b><br>
+                    User: admin<br>
+                    Pass: admin123	<br><br>
+                    <p>Change Password of admin panel</p>
+                    <img src="images/change-password.png"/> 
+                    
+
+            </section>
+            <section id="credits">
+            <div class="container">
+            <p class="append-bottom alt large"><strong><a style="color:#06F" href='http://wrteam.in' target='_blank'>WRTeam</a></strong></p>
+            <p><a style="color:#06F" href="#one">Go To Table of Contents</a></p><div class="section_bdr"></div>
+            </ul>
+            </div>
+            </section>
+            </div>
+        </div>
+        <!-- Scripts --> 
+        <script src="assets/js/jquery.min.js"></script> 
+        <script src="assets/js/jquery.scrollzer.min.js"></script> 
+        <script src="assets/js/jquery.scrolly.min.js"></script> 
+        <script src="assets/js/skel.min.js"></script> 
+        <script src="assets/js/util.js"></script> 
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> 
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
