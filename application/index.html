@@ -1,0 +1,343 @@
+<em><!DOCTYPE HTML>
+<html>
+<head>
+<title>Documentation by "WRTeam "</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<section id="header">
+  <header> <span class="image avatar"><img src="images/ic_launcher.png" alt="Quotes" /></span>
+    <h4 id="logo"><a href="#">Quotes</a></h4>
+  </header>
+  <nav id="nav">
+    <ul>
+      <li><a href="#one" class="active">Table of Contents</a></li>
+    </ul>
+  </nav>
+</section>
+<div id="wrapper">
+<div id="main">
+<section id="one">
+<div class="container">
+
+<p>“ Flutter Quotes ” </p>
+<header class="major">
+  <h2>Quotes</h2>
+</header>
+<div class="borderTop">
+  <div class="span-6 colborder info prepend-1">
+    <p class="prepend-top"> <strong> Created: 12 March 2018<br>
+      Company: WRTeam <br>
+      Contact: <a href="https://themeforest.net/user/wrteam" style='color:#f90849' target="_blank">CodeCanyon Profile</a> </strong> </p>
+  </div>
+  <div class="span-12 last">
+    <p class="prepend-top append-0">Thank you for purchasing the code. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="https://themeforest.net/user/wrteam" style='color:#3c55d1' target="_blank">here</a>. Thanks so much!</p>
+  </div>
+</div>
+<h1 id="toc" > Table of Contents</h1>
+
+<li><a href="#setup" style="color:#ff0039">How to setup Flutter</a></li>
+<li><a href="#dependency" style="color:#ff0039">How to Add dependency</a></li>
+<li><a href="#image" style="color:#ff0039">Change Image</a></li>
+<li><a href='#splash' style="color:#ff0039">Change Splash Screen</a></li>
+<li><a href='#primary' style="color:#ff0039">Change Primary Color of App</a></li>
+<li><a href='#font' style="color:#ff0039">Change Font of App</a></li>
+<li><a href='#slider' style="color:#ff0039">Change Slider Image</a></li>
+<li><a href='#bottom' style="color:#ff0039">Change Bottom Navigation Icon and Label</a></li>
+<li><a href='#nav1' style="color:#ff0039">Add Item in Navigation Drawer.</a></li>
+<li><a href='#base' style="color:#ff0039">Change Base Url of you app</a></li>
+<li><a href='#ad' style="color:#ff0039">How to Intrigrate Admob</a></li>
+
+	
+	
+<section id="setup">
+  <div class="container"> <br>
+    <h2>How to Setup Flutter in Android Studio</h2>
+   
+    <ol>
+      
+   <li>Download Lastest Flutter SDK from below link.in that click on flutter_window_xxx.zip button.</li>
+   
+   <li><a href="https://flutter.dev/docs/get-started/install/windows">Flutter sdk Here</a></li>
+    <br>
+	<img src="images/setup.png" alt="Flutter UI Component" />
+    <br><br>
+	<li>Extract the zip file and copy flutter folder into your desired installation location for the Flutter SDK (eg. C:\src\flutter; do not install Flutter in a directory like C:\Program Files\).</li>
+	<br><li>Inside Flutter folder find flutter_console.bat. Start it by double-clicking.<\li><br><br>
+		<img src="images/setup2.png" alt="Flutter UI Component" />
+   <br>
+   <li>Now set your enviournment variable</li>
+   <li>From the Start search bar in , type ‘env’ and select Edit environment variables for your account</li>
+   
+   
+  <br>
+	<img src="images/path.png" alt="Quotes" />
+    <br><br>
+	
+	<li>Under User variables check if there is an entry called Path:</li>
+	<li>Click on Edit.new Dialog open from it click on new and copy full path to flutter\bin as its value</li>
+	<li>Now Restart your pc for changes to take effect</li>
+	<img src="images/path2.png" alt="Flutter UI Component" /><br><br>
+	<li>Now check everything is ok or not</li>
+	<li>open cmd and do following shown in below picture</li><br>
+		<img src="images/check.png" alt="Flutter UI Component" /><br><br>
+		<li>Now open Android Studio and create new flutter project then select your flutter sdk file to the location where we have downloaded earlier and that's it</li>
+			<br><img src="images/flutter.png" alt="Flutter UI Component" /><br><br>
+		
+		
+	</ol>
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+
+
+
+<section id="dependency">
+  <div class="container"> <br>
+    <h2>How to Add Dependency</h2>
+   
+    <ol>
+      
+   <li>Suppose you want to implement any dependency in your project.then add it in pubspec.yaml file according to it.</li>
+    <br>
+		<img src="images/dependency2.png" alt="Quotes" />
+   
+	</ol>
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+
+<section id="image">
+  <div class="container"> <br>
+    <h2>How to Add Your Own Images </h2>
+   
+   <ol>
+    <li>Go to assets > images ></li><br>
+	<li>Add your images inside this folder</li><br>
+	<img src="images/image.png" alt="Quotes" />
+    <br><br>
+   
+   <li>Add Image to pubspec file inside that there is assets tag put your image here</li><br>
+   	<img src="images/image2.png" alt="Quotes" />
+    <br><br>
+   
+	</ol>
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+
+
+<section id="splash">
+  <div class="container">
+    <h2>Change Splash Screen</h2>
+	<ol>
+  <li>Go to your project inside that open lib directory ,inside open splash.dart. </li>
+  <li>Here You can change background and logo etc.here you have to give your image name and background name.<br />
+   
+</ol>
+    <img src="images/splash.png" alt="Quotes" />
+			<p> </p> 
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+
+<section id="primary">
+  <div class="container">
+    <h2>Change Primary Color of App</h2>
+	<ol>
+  <li>open your main.dart file.inside that there is constant material color, change it to your color.if you have hex color then replace last six digits with your hex color code ex.in our app 0xFF after that digits put your code,here replace 595959 with your code.</li>
+  <br>
+   <img src="images/primary.png" alt="Flutter UI Component" /><br><br>
+   
+ 
+</ol>
+  
+			<p> </p> 
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+
+
+<section id="font">
+  <div class="container">
+    <h2>Change Font of App</h2>
+	<ol>
+  <li>Open your project inside fonts directory. in this directory add your font that you want to use in app.</li>
+  <li>open pubspec.yaml file in that file inside flutter tag create new fonts tag and inside fonts tag add you font as shown in below picture.</li>
+  
+  <br>
+   <img src="images/font1.png" alt="Quotes" /><br><br>
+   <li>open your main.dart file.inside MaterialApp in theme give font family name</li><br>
+      <img src="images/font2.png" alt="Quotes" /><br><br>
+ 
+</ol>
+  
+			<p> </p> 
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+	<section id="slider">
+  <div class="container">
+    <h2>Change Slider Images</h2>
+	<ol>
+  <li>In images directory add slider images.add this images in pubspec file. as shown in figure</li>
+  
+  <br>
+   <img src="images/slider1.png" alt="Quotes" /><br><br>
+   <li>and in main.dart change images name in sliderimgList</li><br>
+      <img src="images/slider.png" alt="Quotes" /><br><br>
+ 
+</ol>
+  
+			<p> </p> 
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+<section id="bottom">
+  <div class="container">
+    <h2>Change Bottom Navigation Icon and Label</h2>
+	<ol>
+  <li>In Main.dart inside build method bottomNavigationBar change here your icon and label</li>
+  
+  <br>
+   <img src="images/bnav.png" alt="Quotes" /><br><br>
+ 
+</ol>
+  
+			<p> </p> 
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+<section id="nav1">
+  <div class="container">
+    <h2>Add Item in Navigation Drawer.</h2>
+	<ol>
+  <li>In Main.dart inside menuitem you can add your menu.</li>
+  
+  <br>
+   <img src="images/nav1.png" alt="Quotes" /><br><br>
+   <li>Inside build method, MenuView item you can implment you own logic for that perticular menu item</li>
+   <br>
+   <img src="images/nav2.png" alt="Quotes" /><br><br>
+</ol>
+  
+			<p> </p> 
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+<section id="base">
+  <div class="container">
+    <h2>Change Base Url of app.</h2>
+	<ol>
+  <li>In Main.dart, there is constant string variable base_url ,replace it with your base url. </li><br>
+    <img src="images/ad2.png" alt="Quotes" /><br><br>
+  
+  <br>
+   <div class="section_bdr"></div>
+ 
+</ol>
+</section>
+  
+  
+<section id="ad">
+  <div class="container">
+    <h2>How to Intigrate Admob</h2>
+	<ol>
+  <li>Add Admob Dependency in pubspec.yaml file</li>
+  
+  <br>
+   <img src="images/ad1.png" alt="Quotes" /><br><br>
+   
+   <li>Change your admob id for android and ios</li>
+  
+  <br>
+   <img src="images/ad2.png" alt="Quotes" /><br><br>
+ 
+ 
+ <li>Update your manifest with App Id</li>
+ <br>
+   <img src="images/ad3.png" alt="Quotes" /><br><br>
+   
+    
+ <li>Update your info.plist for ios</li>
+ <br>
+   <img src="images/ad4.png" alt="Quotes" /><br><br>
+ 
+</ol>
+  
+			<p> </p> 
+    <div class="section_bdr"></div>
+	  </ul>
+  </div>
+</section>
+
+	
+   <section id="rating">
+  <div class="container"> <br>
+    <h2>Rating </h2>
+    <p>If you like our app, we will highly appreciate if you can provide us a rating of 5. You can rate us from your CodeCanyon Menu > Download page.</p>
+    <div class="section_bdr"></div>
+    </ul>
+  </div>
+</section>
+
+
+
+</div>
+
+<!-- Footer -->
+<section id="footer">
+  <div class="container">
+    <ul class="copyright">
+      <li>
+        <h3><span style="color:#0e8bcb;font-style:italic">WRTeam</span> 
+      </li>
+      <!--<li><a href="http://www.viaviweb.in" target="_blank"><span style="color:#9f9f9f;font-style:italic">Viavi Webtech</span></a></li>-->
+    </ul>
+  </div>
+</section>
+</div>
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrollzer.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> 
+<script src="assets/js/main.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+		}
+	});
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
+	});
+});
+</script>
+<div><a href="#" class="scrollup">Scroll</a></div>
+</body>
+</html>
+</em>
