@@ -1908,7 +1908,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled,  input[type="reset
 	position: fixed;
 	text-align: center;
 	top: 0;
-	width: 23em;
+	width: 23em;overflow-y: auto;
 }
 #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 	color: #ffffff;
